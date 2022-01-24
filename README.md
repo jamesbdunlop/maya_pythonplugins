@@ -1,7 +1,7 @@
 # maya_pythonplugins
 
-###skinTo:
-
+skinTo:
+----------
 Is a util for xferring skinning from one mesh to another 
 ```
 args:
@@ -16,16 +16,16 @@ Usage:
 cmds.skinTo(maxNumInfluences=2, buv=True, sa="closestComponent", uv1='map1', uv2='map2')
 ```
 
-###resetSkinCluster:
-
+resetSkinCluster:
+----------------
 Is a util for resetting the skin if you have moved joints due to refitting a character.
 
 ```
 cmds.resetSkinCluster()
 ```
 
-###saveSkinWeights:
-
+saveSkinWeights:
+----------------
 An om2 skinweight saver that works pretty fast
 ```
 :param fp: Path including filename.ext as a string
@@ -38,8 +38,8 @@ Usage:
 cmds.saveSkinWeights(filepath="C:/temp/skintest.json", skipZeroWeights=True)
 ```
 
-###loadSkinWeights:
-
+loadSkinWeights:
+----------------
 For use with the saveSkinweights data, loads the skinWeights back onto the selected meshes.
 ```
 :param fp: `str` path to the json including the fileName.json
