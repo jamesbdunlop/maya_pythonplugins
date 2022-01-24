@@ -30,12 +30,9 @@ An om2 skinweight saver that works pretty fast
 ```
 :param fp: Path including filename.ext as a string
 :param szw: Store any weights that are 0 in value? Bool
-USage:
+Usage:
     fp="C:/temp/agathaV01.json"
     cmds.jbdSaveWeights(fp=fp, szw=False)
-
-Usage:
-cmds.saveSkinWeights(filepath="C:/temp/skintest.json", skipZeroWeights=True)
 ```
 
 loadSkinWeights:
